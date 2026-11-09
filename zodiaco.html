@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signo Zodiacal</title>
+</head>
+<body>
+    <script>
+    let dia = parseInt(prompt("Ingrese su dia de nacimiento"));
+    let mes = parseInt(prompt("Ingrese su mes de nacimiento (1-12)"));
+
+    switch (mes) {
+        case 1:
+            if (dia >= 1 && dia <= 19) {
+                document.write("Eres Capricornio");
+            } else if (dia >= 20 && dia <= 31) {
+                document.write("Eres Acuario");
+            }
+            break;
+        case 2:
+            if (dia >= 1 && dia <= 18) {
+                document.write("Eres Acuario");
+            } else if (dia >= 19 && dia <= 29) {
+                document.write("Eres Piscis");
+            }
+            break;
+        case 3:
+            if (dia >= 1 && dia <= 20) {
+                document.write("Eres Piscis");
+            } else if (dia >= 21 && dia <= 31) {
+                document.write("Eres Aries");
+            }
+            break;
+        case 4:
+            if (dia >= 1 && dia <= 19) {
+                document.write("Eres Aries");
+            } else if (dia >= 20 && dia <= 30) {
+                document.write("Eres Tauro");
+            }
+            break;
+        case 5:
+            if (dia >= 1 && dia <= 20) {
+                document.write("Eres Tauro");
+            } else if (dia >= 21 && dia <= 31) {
+                document.write("Eres Geminis");
+            }
+            break;
+        case 6:
+            if (dia >= 1 && dia <= 20) {
+                document.write("Eres Geminis");
+            } else if (dia >= 21 && dia <= 30) {
+                document.write("Eres Cancer");
+            }
+            break;
+        case 7:
+            if (dia >= 1 && dia <= 22) {
+                document.write("Eres Cancer");
+            } else if (dia >= 23 && dia <= 31) {
+                document.write("Eres Leo");
+            }
+            break;
+        case 8:
+            if (dia >= 1 && dia <= 22) {
+                document.write("Eres Leo");
+            } else if (dia >= 23 && dia <= 31) {
+                document.write("Eres Virgo");
+            }
+            break;
+        case 9:
+            if (dia >= 1 && dia <= 22) {
+                document.write("Eres Virgo");
+            } else if (dia >= 23 && dia <= 30) {
+                document.write("Eres Libra");
+            }
+            break;
+        case 10:
+            if (dia >= 1 && dia <= 22) {
+                document.write("Eres Libra");
+            } else if (dia >= 23 && dia <= 31) {
+                document.write("Eres Escorpio");
+            }
+            break;
+        case 11:
+            if (dia >= 1 && dia <= 21) {
+                document.write("Eres Escorpio");
+            } else if (dia >= 22 && dia <= 30) {
+                document.write("Eres Sagitario");
+            }
+            break;
+        case 12:
+            if (dia >= 1 && dia <= 21) {
+                document.write("Eres Sagitario");
+            } else if (dia >= 22 && dia <= 31) {
+                document.write("Eres Capricornio");
+            }
+            break;
+        default:
+            document.write("Fecha Invalida");
+            break;
+    }
+</script>
+</body>
+</html>
